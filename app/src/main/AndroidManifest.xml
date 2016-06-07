@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.busschedule.group.transitonebusscheduler">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainPage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Busroute" />
+        <activity android:name=".TwitterPage" />
+        <activity android:name=".timer" />
+        <activity android:name=".timer1" />
+        <activity android:name=".route1" />
+        <activity android:name=".route2" />
+        <activity android:name=".locationsmap" />
+        <activity android:name=".timer2" />
+        <activity android:name=".timer3" />
+        <activity android:name=".timer4" />
+        <activity android:name=".timer5" />
+        <activity android:name=".timer6" />
+        <activity android:name=".route3" />
+        <activity android:name=".route4" />
+        <activity android:name=".route5" />
+        <activity android:name=".route6" />
+        <activity android:name=".route7" />
+        <activity android:name=".route8" />
+        <activity android:name=".route9" />
+        <activity android:name=".route10"></activity>
+    </application>
+
+</manifest>
